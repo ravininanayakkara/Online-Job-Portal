@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<!---header section; do not edit--->
+<head>
+      <script src="https://kit.fontawesome.com/350c24570c.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="styles/postajob.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	  <script src="js/signup.js"></script>
+      <title> DreamJobs </title>
+</head>
+
+<body>
+<header>
+  <div class="container1">
+     <h1 style="font-size:40px; font-family:courier,monospace; text-align:left; padding-left:45px; float:left;">DreamJobs <i class="fas fa-anchor"></i></h1>
+
+     <nav>
+
+     <ul class="menu">
+     <li class="menu"><a href="DreamJobs.html">Home</a></li>
+	 <li class="menu"><a href="postajob.html">Post a Job</a></li>
+     <li class="menu" ><a href="findajob.html">Find a Job</a></li>
+     <li class="menu"><a href="signin.html">SignIn</a></li>
+	 <li class="menu"><a href="signup.html">SignUp</a></li>
+	 <li class="menu"><a href="user.html">User Account</a></li>
+	 <li class="menu"><a href="category.html">Category</a></li>
+	 <li class="menu"><a href="submitCV.html">Submit CV</a></li>
+	 <li class="menu"><a href="about.html">About</a></li>
+     <li class="menu" ><a href="contactus.html">Contact Us</a></li> 
+     </ul>
+
+     </nav>
+  </div>
+</header>
+<center>
+<h2>Post A Job</h2>
+
+<form action="#" onsubmit="return checkPassword()">
+Job Title: <br/>
+<input type="text" name="jobtitle" value="Job Title" required><br/></br>
+Location: <br/>
+<input type="text" name="location" placeholder="Location" required><br/></br>
+Job Type: <br/>
+<input type="text" name="jobtype" placeholder="Full Time/Part time" required><br/></br>
+Monthly Salary: <br/>
+<input type="text" name="monthlysalary" placeholder="e.g: 25000" required><br/></br>
+Job Category: <br/>
+<input type="text" name="jobcategory" placeholder="Your Job category" required><br/></br>
+Gender:<br/>
+<input type="radio" name="gender" checked>Male
+<input type="radio" name="gender">Female<br/><br/>
+Maximum years of age: <br/>
+<input type="text" name="maxage" placeholder="Input max age" required><br/></br>
+Minimum years of age: <br/>
+<input type="text" name="minage" placeholder="Input min age" required><br/></br>
+Minimum Experience: <br/>
+<input type="text" name="minexperience" placeholder="Min experience" required><br/></br>
+Application Mobile Number:<br/>
+<input type="phone" name="mobile" placeholder="0123456789" pattern="[0-9]{10}" required><br/></br>
+Email:
+<input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9._]+\.[a-z]{2,3}" required><br/><br/>
+Date:<br/>
+<input type="date" name="date" required><br/><br/>
+Description:<br/>
+<textarea name="description" rows="8" cols="50" required></textarea><br/><br/>
+<input  type="checkbox" id="checkbox" onclick="enableButton()">Accept privacy policy and terms.<br/><br/>
+<input class="button" type="submit" id="submitBtn" value="submit" disabled>
+</form>
+</center>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!---footer section; do not edit--->
+<footer>
+        <div class="main-content">
+          <div class="left box">
+            <h2>About us</h2>
+			<div class="content">
+			<p>You can post jobs for free here with DreamJob.lk<br>Candidates submit your Cv and get contacted by Employers<br>Search jobs all over the Sri Lanka<br>here</p>
+			<div class="social">
+              <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
+              <a href="https://twitter.com"><span class="fab fa-twitter"></span></a>
+              <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
+              <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+            </div>
+			</div>
+        </div>
+ <div class="center box">
+	 <h3> Contact Us </h3>
+	 <div class="content"
+          <div class="website">
+		  <span class="text">DreamJob.lk</span><br>
+		  </div>
+		  <div class="place">
+              <br><span class="fas fa-map-marker-alt"></span>
+              <span class="text">Malabe,Sri Lanka</span>
+            </div>
+			<div class="hotline">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">Hotline:(011)7894561</span>
+            </div>
+              <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">Email:info@DreamJob.lk</span>
+            </div>
+			</div>
+</div>
+		  <div class="bottom">
+        <center>
+          <span class="credit">DreamJob.lk 2021-All rights reserved-Powered by PROGECT GROUP 02 of Lab group 05 </span>
+          <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+        </center>
+      </div>
+		</div>		
+	  </footer>
+</body>
+</html>

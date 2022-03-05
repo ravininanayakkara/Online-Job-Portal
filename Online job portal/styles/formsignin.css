@@ -1,0 +1,74 @@
+h2 {
+	font-size:30px;
+}
+form {
+	width:500px;
+	margin:auto;
+	padding:20px;
+	background-image:url(../images/background.jpg);
+	color:white;
+	font-size:14px;
+	font-family:Verdana;
+	border-radius:20px 20px 20px 20px;
+}
+
+.usernameoremail{
+	line-height:30px;
+	 width: 220px;
+	 border-radius: 8px;
+	 border: 1px solid #fff;
+	 outline:none;
+	 color: #fff;
+	 background:transparent;
+}
+
+.password{
+	line-height:30px;
+	 width: 220px;
+	 border-radius: 8px;
+	 border: 1px solid #fff;
+	 outline:none;
+	 color: #fff;
+	 background:transparent;
+}
+
+::placeholder{
+	  color: #C0C0C0;
+  }
+
+.button{
+	  background-color: #3BAF9F;
+	  display: block;
+	  margin: 20px 0px 0px 20px;
+	  text-align: center;
+	  border-radius: 12px;
+	  border: 2px solid #366473;
+	  padding: 14px 50px;
+	  outline: none;
+	  color: white;
+	  cursor: pointer;
+	  transition: 0.25px;
+  }
+  
+  .social{
+	  margin-bottom: 20px;
+	  width: 220px;
+	  height: 36px;
+	  border: none;
+	  border-radius: 2px;
+	  font-size: 15px;
+	  transition: 0.2s;
+	  color: #fff;
+	  cursor: pointer;
+  }
+  
+  .facebook{
+	  background: #32508e;
+  }
+  .twitter{
+	  background: #55acee;
+  }
+  .google{
+	  background: #dd4b39;
+  }
+  
